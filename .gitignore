@@ -1,0 +1,7 @@
+build
+docs
+.vscode
+CMakeLists.txt
+ConsoleTestApp.vcxproj
+ConsoleTestApp.vcxproj.filters
+ConsoleTestApp.vcxproj.user
