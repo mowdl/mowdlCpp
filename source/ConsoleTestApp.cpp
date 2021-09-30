@@ -12,7 +12,7 @@
 
 
 #include <iostream>
-#include "mowdlCpp/mowdl.h"
+#include "mowdlCpp/mowdlCpp.h"
 
 #define LOG(x) std::cout << x << std::endl
 

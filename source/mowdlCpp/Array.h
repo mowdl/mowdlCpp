@@ -1,7 +1,7 @@
 #pragma once
 
 #include <stdexcept>
-#include "mowdl.h"
+#include "mowdlCpp.h"
 
 namespace mowdl
 {
