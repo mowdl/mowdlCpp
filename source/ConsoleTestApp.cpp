@@ -16,10 +16,32 @@
 
 #define LOG(x) std::cout << x << std::endl
 
+// Testing Functions declarations
+void mowdlCppArrayTest();
+
+
 int main()
 {
+	auto list = mowdl::LinkedList<int>(1);
+	list.addFront(99);
+	list.addFront(88);
+	auto item = list.valueAt(1);
+	LOG(item);
+	list.popBack();
+	list.popBack();
+	LOG(list.getSize());
+	//mowdlCppArrayTest();
+}
+
+/**
+ * @brief helper function to test mowdlCpp::Array
+ * @see mowdlCpp::Array
+ */
+void mowdlCppArrayTest(){
+	LOG("######## Starting mowdlCpp::Array Test");
+
 	int size = 17;
-	mowdl::Array<int> arr(size);
+	mowdl::Array<double> arr(size);
 
 	for (int i = 0; i < size; i++)
 	{
@@ -48,5 +70,6 @@ int main()
 	
 	int lamee = mowdl::Lame;
 	std::cout << lamee << std::endl;
+
 
 }
