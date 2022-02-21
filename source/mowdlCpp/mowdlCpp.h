@@ -2,6 +2,7 @@
 
 #include "Array.h"
 #include "LinkedList.h"
+#include "Queue.h"
 
 namespace mowdl {
 	template <typename T>

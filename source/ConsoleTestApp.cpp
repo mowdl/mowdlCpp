@@ -23,7 +23,12 @@ void mowdlCppLinkedListTest();
 int main()
 {
 	std::cout << "hello world" << std::endl;
-	mowdlCppLinkedListTest();
+	
+	int size = 3;
+
+	auto queue = mowdl::QueueArray<int>(size);
+	auto array = mowdl::Array<int>(size);
+
 }
 
 
@@ -54,4 +59,5 @@ void mowdlCppLinkedListTest()
 	{
 		std::cout << list.valueAt(i) << std::endl;
 	}
+
 }
