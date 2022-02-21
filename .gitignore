@@ -6,3 +6,5 @@ ConsoleTestApp.vcxproj
 ConsoleTestApp.vcxproj.filters
 ConsoleTestApp.vcxproj.user
 coding-interview-university
+source/compileTmp/*
+x64/*

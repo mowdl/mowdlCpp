@@ -10,5 +10,5 @@ namespace mowdl {
 	template <typename T>
 	class LinkedList;
 
-	int Lame  = 990;
+	//int Lame  = 990;
 }
