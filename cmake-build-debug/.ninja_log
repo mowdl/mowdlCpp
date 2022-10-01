@@ -1,0 +1,6 @@
+# ninja log v5
+0	65	6863651602853540	CMakeFiles/mowdlCpp.dir/mowdlCpp/TestClass.cpp.obj	3a4862ced01dc09c
+4	455	6863651606759282	CMakeFiles/mowdlCpp.dir/main.cpp.obj	b3e51cc57f0af448
+456	577	6863651607960240	mowdlCpp.exe	3b6144c0e72bde03
+2	391	6863652300578843	CMakeFiles/mowdlCpp.dir/main.cpp.obj	b3e51cc57f0af448
+392	467	6863652301318981	mowdlCpp.exe	eed5b490cecf6dac
