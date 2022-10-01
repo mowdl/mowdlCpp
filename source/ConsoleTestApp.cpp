@@ -9,7 +9,7 @@
  * 
  */
 
-
+#include "mowdlCppVector2D.cpp"
 
 #include <iostream>
 #include "mowdlCpp/mowdlCpp.h"
@@ -22,12 +22,8 @@ void mowdlCppLinkedListTest();
 
 int main()
 {
-	std::cout << "hello world" << std::endl;
-	
-	int size = 3;
 
-	auto queue = mowdl::QueueArray<int>(size);
-	auto array = mowdl::Array<int>(size);
+	
 
 }
 

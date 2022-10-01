@@ -62,15 +62,15 @@ namespace mowdl
         bool full();
     };
 
-    template <typename T>
-    QueueArray<T>::QueueArray(int size) : Array<T>(size)
-    {
-    }
+    // template <typename T>
+    // QueueArray<T>::QueueArray(int size)
+    // {
+    // }
 
-    template <typename T>
-    void QueueArray<T>::enqueue(T item)
-    {
+    // template <typename T>
+    // void QueueArray<T>::enqueue(T item)
+    // {
         
-    }
+    // }
 
 }
