@@ -1,10 +1,34 @@
-build
-docs
-.vscode
-CMakeLists.txt
-ConsoleTestApp.vcxproj
-ConsoleTestApp.vcxproj.filters
-ConsoleTestApp.vcxproj.user
-coding-interview-university
-source/compileTmp/*
-x64/*
+# Compiled output
+cmake-build-debug/
+
+# CLion-specific files
+.cproject
+.cwproject
+.idea/
+*.iml
+
+# Compiled source
+*.o
+*.obj
+
+# Generated files
+CMakeFiles/
+CMakeScripts/
+CMakeCache.txt
+*.cmake
+Makefile
+
+# User-specific settings
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/inspectionProfiles
+
+# Other editor-specific files
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# OS-specific files
+.DS_Store
+Thumbs.db
